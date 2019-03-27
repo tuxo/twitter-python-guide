@@ -304,11 +304,16 @@ Por segurança, faça isso com todos os textos que podem conter emojis, como nom
 
 ### PASSO 14
 Para outras funcionalidades, acesse a [documentação de referência](https://dev.twitter.com/rest/reference). Todos os endpoints que estão na sessão GET, irão usar o método .get(), todos os que estão na sessão POST, irão usar o método POST.
+
 Atenção: Não confunda POST / .post() com o ato “twittar” (atualização de status). Diariamente, utilizamos o verbo “postar” querendo falar da nossa atualização de status, porém, nesse contexto, POST significa qualquer operação que irá ENVIAR informações ao twitter, e nem sempre essa operação é uma atualização de status.
+
 Quando você quiser recuperar informações vindas do Twitter, utilize o método .get(). Quando você quiser enviar informações ao Twitter, utilize o método .post().
+
 Exemplo:
-Operação para conseguir o nome de um usuário: GET,
-Operação para seguir um usuário: POST 
+
+Operação para conseguir o nome de um usuário: **GET**,
+
+Operação para seguir um usuário: **POST** 
 
 
 ### AGORA É COM VOCÊ!
