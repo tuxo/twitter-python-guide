@@ -114,7 +114,114 @@ O método loads vai retornar um dicionário baseado na string gigante. Agora, se
 ### PASSO 8
 Na verdade a variável tweets até então está armazenando um dicionário de apenas duas chaves: “search_metadata” e “statuses” (Com o método de dicionários .keys() você pode ver isso). Podemos observar a versão “bonita” desse dicionário aqui:
 
-
+```python
+{
+    'search_metadata': {
+        'refresh_url': '?since_id=890775573047455745&q=python&include_entities=1',
+        'since_id_str': '0',
+        'since_id': 0,
+        'count': 1,
+        'completed_in': 0.02,
+        'max_id': 890775573047455745,
+        'max_id_str': '890775573047455745',
+        'next_results': '?max_id=890775573047455744&q=python&count=1&include_entities=1',
+        'query': 'python'
+    },
+    'statuses': [{
+        'in_reply_to_user_id_str': None,
+        'id': 890775573047455745,
+        'is_quote_status': False,
+        'retweeted': False,
+        'in_reply_to_user_id': None,
+        'contributors': None,
+        'metadata': {
+            'result_type': 'recent',
+            'iso_language_code': 'en'
+        },
+        'place': None,
+        'coordinates': None,
+        'created_at': 'Fri Jul 28 03:27:01 +0000 2017',
+        'retweet_count': 0,
+        'favorited': False,
+        'entities': {
+            'user_mentions': [],
+            'hashtags': [{
+                'indices': [60, 67],
+                'text': 'python'
+            }, {
+                'indices': [68, 80],
+                'text': 'filesystems'
+            }],
+            'urls': [{
+                'indices': [81, 104],
+                'display_url': 'goo.gl/C5GYHl',
+                'url': 'https://t.co/0qYkmFiACm',
+                'expanded_url': 'https://goo.gl/C5GYHl'
+            }],
+            'symbols': []
+        },
+        'possibly_sensitive': False,
+        'in_reply_to_status_id': None,
+        'in_reply_to_screen_name': None,
+        'truncated': False,
+        'text': "How to get full path of current file's directory in Python? #python #filesystems https://t.co/0qYkmFiACm",
+        'favorite_count': 0,
+        'user': {
+            'id': 747460774998605825,
+            'name': 'PythonQnA',
+            'profile_image_url_https': 'https://pbs.twimg.com/profile_images/747461193653092352/Mz9NjeE__normal.jpg',
+            'notifications': False,
+            'profile_sidebar_border_color': 'C0DEED',
+            'profile_link_color': '1DA1F2',
+            'url': None,
+            'profile_text_color': '333333',
+            'profile_sidebar_fill_color': 'DDEEF6',
+            'profile_use_background_image': True,
+            'protected': False,
+            'location': 'Bengaluru, India',
+            'entities': {
+                'description': {
+                    'urls': []
+                }
+            },
+            'time_zone': None,
+            'profile_background_image_url': None,
+            'created_at': 'Mon Jun 27 16:05:10 +0000 2016',
+            'favourites_count': 0,
+            'profile_background_image_url_https': None,
+            'is_translator': False,
+            'followers_count': 697,
+            'lang': 'en',
+            'following': False,
+            'profile_background_tile': False,
+            'default_profile_image': False,
+            'follow_request_sent': False,
+            'screen_name': 'PythonQnA',
+            'geo_enabled': False,
+            'profile_background_color': 'F5F8FA',
+            'listed_count': 274,
+            'statuses_count': 93653,
+            'profile_banner_url': 'https://pbs.twimg.com/profile_banners/747460774998605825/1467044067',
+            'default_profile': True,
+            'friends_count': 64,
+            'is_translation_enabled': False,
+            'translator_type': 'none',
+            'has_extended_profile': True,
+            'profile_image_url': 'http://pbs.twimg.com/profile_images/747461193653092352/Mz9NjeE__normal.jpg',
+            'id_str': '747460774998605825',
+            'utc_offset': None,
+            'verified': False,
+            'description': 'I tweet Python questions from stackoverflow.',
+            'contributors_enabled': False
+        },
+        'id_str': '890775573047455745',
+        'geo': None,
+        'source': '<a href="http://jarvis.ratankumar.org/" rel="nofollow">PythonQnA</a>',
+        'lang': 'en',
+        'in_reply_to_status_id_str': None
+    }]
+}
+```
 
 *Este dicionário foi “embelezado” pelo [Python Beautifier](http://www.cleancss.com/python-beautify/)*
 
