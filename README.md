@@ -1,5 +1,5 @@
 # PROJETO - USANDO O TWITTER COM PYTHON
-## Por: Arthur Moreira (github.com/reiarthur)
+## Por: Arthur Moreira (github.com/tuxo)
 
 O intuito deste projeto é familiarizar os alunos à linguagem de programação, à sintaxe da linguagem utilizada, e estimular a descoberta e pesquisa de novas funcionalidades. A escolha foi feita baseada na pergunta “Como posso usar Python no dia-a-dia?”.
 
